@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Envinow organisation</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet" >
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header" id = "home">
+    <nav>
+      <a href="index.html"><img class="logo" src="images\Envinow-logos\Envinow-icon_white_short.ico"></a>
+      <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="">DONATION</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul> 
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h2>We'r</h2>
+      <h1 class="Envinow">Envinow</h1>
+      <a href="#projects" class="project-button">See our Projects</a>
+    </div>
+  </section>
+<!--projects-->
+<section class="projects" id="projects">
+  <h1 class="prohead">
+    PROJECTS
+  </h1>
+  <p>Let's change the World</p>
+  <div class="row">
+    <div class="course-column">
+        <h3>Project 365</h3>
+        <p>We are Eagerly Waiting to announce the project 365.
+          We will announce it as soon as possible.
+          Thank you for your Patience!!!!!!!
+        </p>
+    </div>
+    <div class="course-column1">
+      <img class ="im" src="images/planting.jpg" alt="">
+    </div>
+    <div class="course-column">
+      <h3>Project Daily</h3>
+      <p>We are Eagerly Waiting to announce the project Daily.
+        We will announce it as soon as possible.
+        Thank you for your Patience!!!!!!!
+      </p>
+    </div>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--Javascript for toggel menu-->
+<script> 
+  var navlink = document.getElementById("navLink");
+  function showMenu(){
+    navLink.style.right="0px";
+  }
+  function hideMenu(){
+    navLink.style.right="-200px";
+  }
+</script>
+
+</body>
+</html>
